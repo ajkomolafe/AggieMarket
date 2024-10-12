@@ -1,7 +1,7 @@
 {
-  "name": "api",
+  "name": "aggiemarketapi",
   "version": "1.0.0",
-  "main": "API.js",
+  "main": "src/api.js",
   "scripts": {
     "dev": "nodemon api.js"
   },

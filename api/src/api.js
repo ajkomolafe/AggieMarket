@@ -15,4 +15,4 @@ api.use(express.json());
 const userRouter = require("./users/users.js");
 api.use("/users", userRouter) //requests on localhost:3000/users go to userRouter
 
-api.listen(3000, () => console.log("Server Started"));
+api.listen(3001, () => console.log("Server Started"));
